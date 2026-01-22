@@ -28,7 +28,7 @@ export const ProductCard = ({ product }: any) => {
         <div className="flex items-center justify-between mt-4">
           <div className="flex flex-col">
             <span className="text-xs text-gray-500 uppercase font-bold tracking-widest">Price</span>
-            <span className="text-xl font-black text-[#6366f1]">${product.price}</span>
+            <span className="text-xl font-black text-[#6366f1]">RS {product.price}</span>
           </div>
           
           <div className="flex gap-2">

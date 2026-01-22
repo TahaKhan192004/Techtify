@@ -25,7 +25,7 @@ export default async function HomePage() {
           Curated hardware for creators and developers. Direct global sourcing. Hand-to-hand delivery in Lahore.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
-          <Link href="/products">
+          <Link href="/allproducts">
             <Button className="py-4 px-10 w-full sm:w-auto">Shop Collection</Button>
           </Link>
           <Link href="/request-product">
@@ -39,9 +39,9 @@ export default async function HomePage() {
         <div className="flex justify-between items-end mb-12 border-l-4 border-[#6366f1] pl-6">
           <div>
             <h2 className="text-3xl font-black italic tracking-tighter uppercase">Featured_Drops</h2>
-            <p className="text-gray-500 text-sm font-mono mt-1">LATEST_ARRIVALS // 001 - 006</p>
+            <p className="text-gray-500 text-sm font-mono mt-1">LATEST_ARRIVALS // 001 - 004</p>
           </div>
-          <Link href="/products" className="text-[#6366f1] text-sm font-bold hover:underline tracking-widest uppercase">
+          <Link href="/allproducts" className="text-[#6366f1] text-sm font-bold hover:underline tracking-widest uppercase">
             View All →
           </Link>
         </div>

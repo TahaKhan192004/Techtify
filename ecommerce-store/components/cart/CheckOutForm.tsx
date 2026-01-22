@@ -88,7 +88,7 @@ export const CheckoutButton = ({ shippingData }: { shippingData: ShippingData })
       ) : (
         <>
           <Lock size={18} className="text-white/70" />
-          <span>Pay ${totalPrice.toFixed(2)}</span>
+          <span>Pay Rs {totalPrice.toFixed(2)}</span>
         </>
       )}
     </button>

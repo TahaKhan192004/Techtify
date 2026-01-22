@@ -40,7 +40,7 @@ export const CartItem = ({ item }: any) => {
           {item.name}
         </h4>
         <p className="text-[#6366f1] font-mono font-bold text-xs md:text-sm">
-          ${(item.price * item.quantity).toFixed(2)}
+          Rs {(item.price * item.quantity).toFixed(2)}
         </p>
       </div>
       

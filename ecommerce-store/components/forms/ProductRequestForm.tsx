@@ -59,7 +59,7 @@ export const ProductRequestForm = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Input 
-            label="Target Price ($)" 
+            label="Target Price (Rs)" 
             name="price" 
             type="number" 
             placeholder="200" 
